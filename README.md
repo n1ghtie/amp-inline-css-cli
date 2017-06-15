@@ -1,61 +1,40 @@
-# inline-critical
+# amp-inline-critical
 
-Inline critical-path css and load the existing stylesheets asynchronously.
-Existing link tags will also be wrapped in ```<noscript>``` so the users with javscript disabled will see the site rendered normally.
+This is a project, a slight modification of an existing npm module called [inline-critical](https://github.com/bezoerb/inline-critical). All Credit for developing the original packages goes to the guys who developed *inline-critical*!
 
-[![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Build Status][appveyor-image]][appveyor-url] [![Dependency Status][depstat-image]][depstat-url] [![Download][dlcounter-image]][dlcounter-url] [![Coverage Status][coveralls-image]][coveralls-url]
+##!Important
+
+This sole purpose of this package is to assist in developing amp webpages, that require special `<style amp-custom></style>` attibute to be valid, and not to modify any external css like `goole fonts`, or `font-awesome`
 
 ## Installation
 
 This module is installed via npm:
 
 ``` bash
-$ npm install inline-critical
+$ npm install amp-inline-css
 ```
 
-## Example Usage
-
-``` js
-var inline = require('inline-critical');
-var html = fs.readFileSync('test/fixtures/index.html', 'utf8');
-var critical = fs.readFileSync('test/fixtures/critical.css', 'utf8');
-
-var inlined = inline(html, critical);
-```
-
-## Example Usage ignoring stylesheet per regex
-
-
-``` js
-var inline = require('inline-critical');
-var html = fs.readFileSync('test/fixtures/index.html', 'utf8');
-var critical = fs.readFileSync('test/fixtures/critical.css', 'utf8');
-
-var inlined = inline(html, critical, {
-  ignore: [/bootstrap/]
-});
-```
 
 ## CLI
 
 inline-critical works well with standard input. 
 You can either pass in the html 
 ```bash
-cat index.html | inline-critical critical.css
+cat index.html | amp-inline-css critical.css
 ```
 or just flip things around
 ```bash
-cat critical.css | inline-critical index.html
+cat critical.css | amp-inline-css index.html
 ```
 or pass in the fileas as an option
 ```bash
-inline-critical critical.css index.html
+amp-inline-css critical.css index.html
 ```
 without having to worry about the correct order
 ```bash
-inline-critical index.html critical.css
+amp-inline-css index.html critical.css
 ```
-Run `inline-critical --help` to see the list of options.
+Run `amp-inline-css --help` to see the list of options.
 
 ## inline(html, styles, options?)
 
@@ -70,22 +49,4 @@ Run `inline-critical --help` to see the list of options.
 
 ## License
 
-MIT
-
-[npm-url]: https://npmjs.org/package/inline-critical
-[npm-image]: https://badge.fury.io/js/inline-critical.svg
-
-[travis-url]: https://travis-ci.org/bezoerb/inline-critical
-[travis-image]: https://secure.travis-ci.org/bezoerb/inline-critical.svg?branch=master
-
-[appveyor-url]: https://ci.appveyor.com/project/bezoerb/inline-critical/branch/master
-[appveyor-image]: https://ci.appveyor.com/api/projects/status/qb9esocjkpp6hw3q/branch/master?svg=true
-
-[depstat-url]: https://david-dm.org/bezoerb/inline-critical
-[depstat-image]: https://david-dm.org/bezoerb/inline-critical.svg
-
-[dlcounter-url]: https://www.npmjs.com/package/inline-critical
-[dlcounter-image]: https://img.shields.io/npm/dm/inline-critical.svg
-
-[coveralls-url]: https://coveralls.io/github/bezoerb/inline-critical?branch=master
-[coveralls-image]: https://coveralls.io/repos/github/bezoerb/inline-critical/badge.svg?branch=master
+No License

@@ -2,10 +2,10 @@
   "_args": [
     [
       {
-        "raw": "inline-critical",
+        "raw": "amp-inline-critical-cli",
         "scope": null,
-        "escapedName": "inline-critical",
-        "name": "inline-critical",
+        "escapedName": "amp-inline-critical-cli",
+        "name": "amp-inline-critical-cli",
         "rawSpec": "",
         "spec": "latest",
         "type": "tag"
@@ -13,14 +13,14 @@
       "/Users/andrejs.gubars/Sites/Studio/Internal/Titan-Amp"
     ]
   ],
-  "_from": "inline-critical@latest",
-  "_id": "inline-critical@2.4.1",
+  "_from": "amp-inline-critical-cli@latest",
+  "_id": "amp-inline-critical-cli@2.4.1",
   "_inCache": true,
-  "_location": "/inline-critical",
+  "_location": "/amp-inline-critical-cli",
   "_nodeVersion": "7.4.0",
   "_npmOperationalInternal": {
     "host": "s3://npm-registry-packages",
-    "tmp": "tmp/inline-critical-2.4.1.tgz_1495229918868_0.18588757514953613"
+    "tmp": "tmp/amp-inline-critical-cli-2.4.1.tgz_1495229918868_0.18588757514953613"
   },
   "_npmUser": {
     "name": "bezoerb",
@@ -32,10 +32,10 @@
     "source-map": "0.5.6"
   },
   "_requested": {
-    "raw": "inline-critical",
+    "raw": "amp-inline-critical-cli",
     "scope": null,
-    "escapedName": "inline-critical",
-    "name": "inline-critical",
+    "escapedName": "amp-inline-critical-cli",
+    "name": "amp-inline-critical-cli",
     "rawSpec": "",
     "spec": "latest",
     "type": "tag"
@@ -43,20 +43,20 @@
   "_requiredBy": [
     "#USER"
   ],
-  "_resolved": "https://registry.npmjs.org/inline-critical/-/inline-critical-2.4.1.tgz",
+  "_resolved": "https://registry.npmjs.org/amp-inline-critical-cli/-/amp-inline-critical-cli-2.4.1.tgz",
   "_shasum": "8fe0a2b0a66fb99ec358c97c767534bbc526bc1b",
   "_shrinkwrap": null,
-  "_spec": "inline-critical",
+  "_spec": "amp-inline-critical-cli",
   "_where": "/Users/andrejs.gubars/Sites/Studio/Internal/Titan-Amp",
   "author": {
     "name": "Ben Zörb",
     "email": "ben@sommerlaune.com"
   },
   "bin": {
-    "inline-critical": "cli.js"
+    "amp-inline-critical-cli": "cli.js"
   },
   "bugs": {
-    "url": "https://github.com/bezoerb/inline-critical/issues"
+    "url": "https://github.com/bezoerb/amp-inline-critical-cli/issues"
   },
   "dependencies": {
     "cave": "2.0.0",
@@ -91,7 +91,7 @@
   "directories": {},
   "dist": {
     "shasum": "8fe0a2b0a66fb99ec358c97c767534bbc526bc1b",
-    "tarball": "https://registry.npmjs.org/inline-critical/-/inline-critical-2.4.1.tgz"
+    "tarball": "https://registry.npmjs.org/amp-inline-critical-cli/-/amp-inline-critical-cli-2.4.1.tgz"
   },
   "engines": {
     "node": ">= 4"
@@ -101,7 +101,7 @@
     "cli.js"
   ],
   "gitHead": "f14f35e81a21e8432e7c1da60736b186158e5cc0",
-  "homepage": "https://github.com/bezoerb/inline-critical#readme",
+  "homepage": "https://github.com/bezoerb/amp-inline-critical-cli#readme",
   "keywords": [
     "css",
     "inline",
@@ -116,12 +116,12 @@
       "email": "ben@sommerlaune.com"
     }
   ],
-  "name": "inline-critical",
+  "name": "amp-inline-critical-cli",
   "optionalDependencies": {},
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bezoerb/inline-critical.git"
+    "url": "git+https://github.com/bezoerb/amp-inline-critical-cli.git"
   },
   "scripts": {
     "coveralls": "nyc report --reporter=text-lcov | coveralls",
