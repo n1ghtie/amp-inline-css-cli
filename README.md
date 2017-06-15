@@ -1,6 +1,6 @@
 # amp-inline-critical
 
-This is a project, a slight modification of an existing npm module called [inline-critical](https://github.com/bezoerb/inline-critical). All Credit for developing the original packages goes to the guys who developed *inline-critical*!
+This is a project, a slight modification of an existing npm module called [inline-critical](https://github.com/bezoerb/inline-critical). All Credit for developing the original packages goes to the guys who developed *inline-critical*.
 
 ##!Important
 
