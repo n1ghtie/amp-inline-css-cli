@@ -4,7 +4,7 @@ This is a project, a slight modification of an existing npm module called [inlin
 
 ##!Important
 
-This sole purpose of this package is to assist in developing amp webpages, that require special `<style amp-custom></style>` attibute to be valid, and not to modify any external css like `goole fonts`, or `font-awesome`
+This sole purpose of this package is to assist in developing amp webpages, that require special `<style amp-custom></style>` attibute to be valid, and not to modify any external css like `google fonts api`, or `font-awesome`
 
 ## Installation
 
