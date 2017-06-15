@@ -121,7 +121,7 @@
     "prepublish": "nsp check",
     "test": "xo && nyc mocha test/index.js --timeout 5000"
   },
-  "version": "0.0.4",
+  "version": "0.0.5",
   "xo": {
     "space": 4,
     "envs": [

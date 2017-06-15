@@ -17,22 +17,10 @@ $ npm install amp-inline-css-cli
 
 ## CLI
 
-inline-critical works well with standard input. 
-You can either pass in the html 
+Recommened usage in example below.
+Works well with either `.html` or `.php` files.
 ```bash
-cat index.html | amp-inline-css-cli critical.css
-```
-or just flip things around
-```bash
-cat critical.css | amp-inline-css-cli index.html
-```
-or pass in the fileas as an option
-```bash
-amp-inline-css-cli critical.css index.html
-```
-without having to worry about the correct order
-```bash
-amp-inline-css-cli index.html critical.css
+amp-inline-css-cli -c /path/to/css/main.css -h /path/to/index.html > /path/to/output/index.html
 ```
 Run `amp-inline-css-cli --help` to see the list of options.
 
