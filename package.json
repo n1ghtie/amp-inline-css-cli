@@ -14,14 +14,10 @@
     ]
   ],
   "_from": "amp-inline-critical-cli@latest",
-  "_id": "amp-inline-critical-cli@2.4.1",
+  "_id": "amp-inline-critical-cli@0.0.1",
   "_inCache": true,
   "_location": "/amp-inline-critical-cli",
   "_nodeVersion": "7.4.0",
-  "_npmOperationalInternal": {
-    "host": "s3://npm-registry-packages",
-    "tmp": "tmp/amp-inline-critical-cli-2.4.1.tgz_1495229918868_0.18588757514953613"
-  },
   "_npmUser": {
     "name": "n1ghtie",
     "email": "agubars1@gmail.com"
@@ -43,8 +39,6 @@
   "_requiredBy": [
     "#USER"
   ],
-  "_resolved": "https://registry.npmjs.org/amp-inline-critical-cli/-/amp-inline-critical-cli-2.4.1.tgz",
-  "_shasum": "8fe0a2b0a66fb99ec358c97c767534bbc526bc1b",
   "_shrinkwrap": null,
   "_spec": "amp-inline-critical-cli",
   "_where": "/Users/andrejs.gubars/Sites/Studio/Internal/Titan-Amp",
@@ -56,7 +50,7 @@
     "amp-inline-critical-cli": "cli.js"
   },
   "bugs": {
-    "url": "https://github.com/bezoerb/amp-inline-critical-cli/issues"
+    "url": "https://github.com/n1ghtie/amp-inline-css-cli/issues"
   },
   "dependencies": {
     "cave": "2.0.0",
@@ -101,19 +95,18 @@
     "cli.js"
   ],
   "gitHead": "f14f35e81a21e8432e7c1da60736b186158e5cc0",
-  "homepage": "https://github.com/bezoerb/amp-inline-critical-cli#readme",
+  "homepage": "https://github.com/n1ghtie/amp-inline-css-cli#readme",
   "keywords": [
+    "amp",
     "css",
-    "inline",
-    "loadcss",
-    "critical-path"
+    "inline"
   ],
-  "license": "MIT",
+  "license": "No license",
   "main": "index.js",
   "maintainers": [
     {
-      "name": "bezoerb",
-      "email": "ben@sommerlaune.com"
+      "name": "n1ghtie",
+      "email": "agubars1@gmail.com"
     }
   ],
   "name": "amp-inline-critical-cli",
@@ -121,7 +114,7 @@
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bezoerb/amp-inline-critical-cli.git"
+    "url": "git+https://github.com/n1ghtie/amp-inline-css-cli.git"
   },
   "scripts": {
     "coveralls": "nyc report --reporter=text-lcov | coveralls",
