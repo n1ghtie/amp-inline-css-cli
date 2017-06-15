@@ -23,8 +23,8 @@
     "tmp": "tmp/amp-inline-critical-cli-2.4.1.tgz_1495229918868_0.18588757514953613"
   },
   "_npmUser": {
-    "name": "bezoerb",
-    "email": "ben@sommerlaune.com"
+    "name": "n1ghtie",
+    "email": "agubars1@gmail.com"
   },
   "_npmVersion": "4.0.5",
   "_phantomChildren": {
@@ -49,8 +49,8 @@
   "_spec": "amp-inline-critical-cli",
   "_where": "/Users/andrejs.gubars/Sites/Studio/Internal/Titan-Amp",
   "author": {
-    "name": "Ben Zörb",
-    "email": "ben@sommerlaune.com"
+    "name": "Andrejs Gubars",
+    "email": "agubars1@gmail.com"
   },
   "bin": {
     "amp-inline-critical-cli": "cli.js"

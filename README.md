@@ -11,7 +11,7 @@ This sole purpose of this package is to assist in developing amp webpages, that 
 This module is installed via npm:
 
 ``` bash
-$ npm install amp-inline-css
+$ npm install amp-inline-css-cli
 ```
 
 
@@ -20,21 +20,21 @@ $ npm install amp-inline-css
 inline-critical works well with standard input. 
 You can either pass in the html 
 ```bash
-cat index.html | amp-inline-css critical.css
+cat index.html | amp-inline-css-cli critical.css
 ```
 or just flip things around
 ```bash
-cat critical.css | amp-inline-css index.html
+cat critical.css | amp-inline-css-cli index.html
 ```
 or pass in the fileas as an option
 ```bash
-amp-inline-css critical.css index.html
+amp-inline-css-cli critical.css index.html
 ```
 without having to worry about the correct order
 ```bash
-amp-inline-css index.html critical.css
+amp-inline-css-cli index.html critical.css
 ```
-Run `amp-inline-css --help` to see the list of options.
+Run `amp-inline-css-cli --help` to see the list of options.
 
 ## inline(html, styles, options?)
 
