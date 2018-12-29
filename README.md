@@ -11,7 +11,7 @@ This sole purpose of this package is to assist in developing amp webpages, that 
 This module is installed via npm:
 
 ``` bash
-$ npm install amp-inline-css-cli
+$ npm install amp-inline-critical-cli
 ```
 
 
@@ -20,9 +20,9 @@ $ npm install amp-inline-css-cli
 Recommened usage in example below.
 Works well with either `.html` or `.php` files.
 ```bash
-amp-inline-css-cli -c /path/to/css/main.css -h /path/to/index.html > /path/to/output/index.html
+amp-inline-critical-cli -c /path/to/css/main.css -h /path/to/index.html > /path/to/output/index.html
 ```
-Run `amp-inline-css-cli --help` to see the list of options.
+Run `amp-inline-critical-cli --help` to see the list of options.
 
 ## inline(html, styles, options?)
 
